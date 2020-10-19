@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C523B56E253D09B5006B1C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523B56D253D09B5006B1C61 /* AppDelegate.swift */; };
+		C523B570253D09B5006B1C61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523B56F253D09B5006B1C61 /* SceneDelegate.swift */; };
+		C523B572253D09B5006B1C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523B571253D09B5006B1C61 /* ViewController.swift */; };
+		C523B575253D09B5006B1C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523B573253D09B5006B1C61 /* Main.storyboard */; };
+		C523B577253D09B5006B1C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C523B576253D09B5006B1C61 /* Assets.xcassets */; };
+		C523B57A253D09B5006B1C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523B578253D09B5006B1C61 /* LaunchScreen.storyboard */; };
+		C523B589253D2150006B1C61 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C523B588253D2150006B1C61 /* WidgetKit.framework */; };
+		C523B58B253D2150006B1C61 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C523B58A253D2150006B1C61 /* SwiftUI.framework */; };
+		C523B58E253D2150006B1C61 /* LeaderCardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523B58D253D2150006B1C61 /* LeaderCardWidget.swift */; };
+		C523B591253D2151006B1C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C523B590253D2151006B1C61 /* Assets.xcassets */; };
+		C523B593253D2151006B1C61 /* LeaderCardWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C523B58F253D2150006B1C61 /* LeaderCardWidget.intentdefinition */; };
+		C523B597253D2151006B1C61 /* LeaderCardWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C523B586253D2150006B1C61 /* LeaderCardWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C523B5A7253D21B9006B1C61 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523B5A6253D21B9006B1C61 /* IntentHandler.swift */; };
+		C523B5AB253D21B9006B1C61 /* LeaderCardIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C523B5A4253D21B9006B1C61 /* LeaderCardIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C523B5B5253D2208006B1C61 /* LeaderCardWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C523B58F253D2150006B1C61 /* LeaderCardWidget.intentdefinition */; };
+		C5FA81E0253D28E100050730 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5FA81DF253D28E100050730 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C523B595253D2151006B1C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C523B562253D09B5006B1C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C523B585253D2150006B1C61;
+			remoteInfo = LeaderCardWidgetExtension;
+		};
+		C523B5A9253D21B9006B1C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C523B562253D09B5006B1C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C523B5A3253D21B9006B1C61;
+			remoteInfo = LeaderCardIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C523B59B253D2151006B1C61 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C523B597253D2151006B1C61 /* LeaderCardWidgetExtension.appex in Embed App Extensions */,
+				C523B5AB253D21B9006B1C61 /* LeaderCardIntent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C523B56A253D09B5006B1C61 /* LeaderCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaderCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C523B56D253D09B5006B1C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C523B56F253D09B5006B1C61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C523B571253D09B5006B1C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C523B574253D09B5006B1C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C523B576253D09B5006B1C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C523B579253D09B5006B1C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C523B57B253D09B5006B1C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C523B586253D2150006B1C61 /* LeaderCardWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LeaderCardWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C523B588253D2150006B1C61 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C523B58A253D2150006B1C61 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C523B58D253D2150006B1C61 /* LeaderCardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderCardWidget.swift; sourceTree = "<group>"; };
+		C523B58F253D2150006B1C61 /* LeaderCardWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LeaderCardWidget.intentdefinition; sourceTree = "<group>"; };
+		C523B590253D2151006B1C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C523B592253D2151006B1C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C523B5A4253D21B9006B1C61 /* LeaderCardIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LeaderCardIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C523B5A6253D21B9006B1C61 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		C523B5A8253D21B9006B1C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FA81DF253D28E100050730 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C523B567253D09B5006B1C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523B583253D2150006B1C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523B58B253D2150006B1C61 /* SwiftUI.framework in Frameworks */,
+				C523B589253D2150006B1C61 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523B5A1253D21B9006B1C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C523B561253D09B5006B1C61 = {
+			isa = PBXGroup;
+			children = (
+				C5FA81DF253D28E100050730 /* README.md */,
+				C523B56C253D09B5006B1C61 /* LeaderCard */,
+				C523B58C253D2150006B1C61 /* LeaderCardWidget */,
+				C523B5A5253D21B9006B1C61 /* LeaderCardIntent */,
+				C523B587253D2150006B1C61 /* Frameworks */,
+				C523B56B253D09B5006B1C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C523B56B253D09B5006B1C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C523B56A253D09B5006B1C61 /* LeaderCard.app */,
+				C523B586253D2150006B1C61 /* LeaderCardWidgetExtension.appex */,
+				C523B5A4253D21B9006B1C61 /* LeaderCardIntent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C523B56C253D09B5006B1C61 /* LeaderCard */ = {
+			isa = PBXGroup;
+			children = (
+				C523B56D253D09B5006B1C61 /* AppDelegate.swift */,
+				C523B56F253D09B5006B1C61 /* SceneDelegate.swift */,
+				C523B571253D09B5006B1C61 /* ViewController.swift */,
+				C523B573253D09B5006B1C61 /* Main.storyboard */,
+				C523B576253D09B5006B1C61 /* Assets.xcassets */,
+				C523B578253D09B5006B1C61 /* LaunchScreen.storyboard */,
+				C523B57B253D09B5006B1C61 /* Info.plist */,
+			);
+			path = LeaderCard;
+			sourceTree = "<group>";
+		};
+		C523B587253D2150006B1C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C523B588253D2150006B1C61 /* WidgetKit.framework */,
+				C523B58A253D2150006B1C61 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C523B58C253D2150006B1C61 /* LeaderCardWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C523B58D253D2150006B1C61 /* LeaderCardWidget.swift */,
+				C523B58F253D2150006B1C61 /* LeaderCardWidget.intentdefinition */,
+				C523B590253D2151006B1C61 /* Assets.xcassets */,
+				C523B592253D2151006B1C61 /* Info.plist */,
+			);
+			path = LeaderCardWidget;
+			sourceTree = "<group>";
+		};
+		C523B5A5253D21B9006B1C61 /* LeaderCardIntent */ = {
+			isa = PBXGroup;
+			children = (
+				C523B5A6253D21B9006B1C61 /* IntentHandler.swift */,
+				C523B5A8253D21B9006B1C61 /* Info.plist */,
+			);
+			path = LeaderCardIntent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C523B569253D09B5006B1C61 /* LeaderCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C523B57E253D09B5006B1C61 /* Build configuration list for PBXNativeTarget "LeaderCard" */;
+			buildPhases = (
+				C523B566253D09B5006B1C61 /* Sources */,
+				C523B567253D09B5006B1C61 /* Frameworks */,
+				C523B568253D09B5006B1C61 /* Resources */,
+				C523B59B253D2151006B1C61 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C523B596253D2151006B1C61 /* PBXTargetDependency */,
+				C523B5AA253D21B9006B1C61 /* PBXTargetDependency */,
+			);
+			name = LeaderCard;
+			productName = LeaderCard;
+			productReference = C523B56A253D09B5006B1C61 /* LeaderCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C523B585253D2150006B1C61 /* LeaderCardWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C523B598253D2151006B1C61 /* Build configuration list for PBXNativeTarget "LeaderCardWidgetExtension" */;
+			buildPhases = (
+				C523B582253D2150006B1C61 /* Sources */,
+				C523B583253D2150006B1C61 /* Frameworks */,
+				C523B584253D2150006B1C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeaderCardWidgetExtension;
+			productName = LeaderCardWidgetExtension;
+			productReference = C523B586253D2150006B1C61 /* LeaderCardWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C523B5A3253D21B9006B1C61 /* LeaderCardIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C523B5AC253D21B9006B1C61 /* Build configuration list for PBXNativeTarget "LeaderCardIntent" */;
+			buildPhases = (
+				C523B5A0253D21B9006B1C61 /* Sources */,
+				C523B5A1253D21B9006B1C61 /* Frameworks */,
+				C523B5A2253D21B9006B1C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeaderCardIntent;
+			productName = LeaderCardIntent;
+			productReference = C523B5A4253D21B9006B1C61 /* LeaderCardIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C523B562253D09B5006B1C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C523B569253D09B5006B1C61 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C523B585253D2150006B1C61 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C523B5A3253D21B9006B1C61 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = C523B565253D09B5006B1C61 /* Build configuration list for PBXProject "LeaderCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C523B561253D09B5006B1C61;
+			productRefGroup = C523B56B253D09B5006B1C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C523B569253D09B5006B1C61 /* LeaderCard */,
+				C523B585253D2150006B1C61 /* LeaderCardWidgetExtension */,
+				C523B5A3253D21B9006B1C61 /* LeaderCardIntent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C523B568253D09B5006B1C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523B57A253D09B5006B1C61 /* LaunchScreen.storyboard in Resources */,
+				C523B577253D09B5006B1C61 /* Assets.xcassets in Resources */,
+				C5FA81E0253D28E100050730 /* README.md in Resources */,
+				C523B575253D09B5006B1C61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523B584253D2150006B1C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523B591253D2151006B1C61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523B5A2253D21B9006B1C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C523B566253D09B5006B1C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523B572253D09B5006B1C61 /* ViewController.swift in Sources */,
+				C523B56E253D09B5006B1C61 /* AppDelegate.swift in Sources */,
+				C523B570253D09B5006B1C61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523B582253D2150006B1C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523B58E253D2150006B1C61 /* LeaderCardWidget.swift in Sources */,
+				C523B593253D2151006B1C61 /* LeaderCardWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523B5A0253D21B9006B1C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523B5A7253D21B9006B1C61 /* IntentHandler.swift in Sources */,
+				C523B5B5253D2208006B1C61 /* LeaderCardWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C523B596253D2151006B1C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C523B585253D2150006B1C61 /* LeaderCardWidgetExtension */;
+			targetProxy = C523B595253D2151006B1C61 /* PBXContainerItemProxy */;
+		};
+		C523B5AA253D21B9006B1C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C523B5A3253D21B9006B1C61 /* LeaderCardIntent */;
+			targetProxy = C523B5A9253D21B9006B1C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C523B573253D09B5006B1C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C523B574253D09B5006B1C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C523B578253D09B5006B1C61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C523B579253D09B5006B1C61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C523B57C253D09B5006B1C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C523B57D253D09B5006B1C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C523B57F253D09B5006B1C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LeaderCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hackenbacker.LeaderCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C523B580253D09B5006B1C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LeaderCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hackenbacker.LeaderCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C523B599253D2151006B1C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LeaderCardWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hackenbacker.LeaderCard.LeaderCardWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C523B59A253D2151006B1C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LeaderCardWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hackenbacker.LeaderCard.LeaderCardWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C523B5AD253D21B9006B1C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LeaderCardIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hackenbacker.LeaderCard.LeaderCardIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C523B5AE253D21B9006B1C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LeaderCardIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hackenbacker.LeaderCard.LeaderCardIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C523B565253D09B5006B1C61 /* Build configuration list for PBXProject "LeaderCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C523B57C253D09B5006B1C61 /* Debug */,
+				C523B57D253D09B5006B1C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C523B57E253D09B5006B1C61 /* Build configuration list for PBXNativeTarget "LeaderCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C523B57F253D09B5006B1C61 /* Debug */,
+				C523B580253D09B5006B1C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C523B598253D2151006B1C61 /* Build configuration list for PBXNativeTarget "LeaderCardWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C523B599253D2151006B1C61 /* Debug */,
+				C523B59A253D2151006B1C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C523B5AC253D21B9006B1C61 /* Build configuration list for PBXNativeTarget "LeaderCardIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C523B5AD253D21B9006B1C61 /* Debug */,
+				C523B5AE253D21B9006B1C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C523B562253D09B5006B1C61 /* Project object */;
+}
