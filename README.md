@@ -2,6 +2,7 @@
 
 ## Overview
 <img src="https://dl.dropboxusercontent.com/s/mbl8h1ktj5s877b/L01.png" width="160">
+<img src="https://dl.dropboxusercontent.com/s/mbl8h1ktj5s877b/L02.png" width="320"></br>
 </br>
 English</br>
 Template of iOS14 Widget with [Edit Widget] menu. </br>
