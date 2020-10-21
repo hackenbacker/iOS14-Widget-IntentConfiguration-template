@@ -8,5 +8,5 @@ Template of iOS14 Widget with [Edit Widget] menu. </br>
 日本語</br>
 「ウィジェットを編集」メニューが表示されるWidget(iOS14)のテンプレートです。</br>
 </br>
-Xcode 10.1GM</br>
+Xcode 12.1</br>
 iOS 14.0 - 14.1
